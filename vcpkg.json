@@ -1,0 +1,21 @@
+{
+  "name" : "pecan",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "dee924de74e81388140a53c32a919ecec57d20ab",
+  "dependencies" : [ {
+    "name" : "glfw3",
+    "version>=" : "3.4"
+  }, {
+    "name" : "glm",
+    "version>=" : "1.0.1#2"
+  }, {
+    "name" : "imgui",
+    "version>=" : "1.90.6",
+    "default-features": true,
+    "features": [
+      "docking-experimental",
+      "glfw-binding",
+      "vulkan-binding"
+    ]
+  } ]
+}
