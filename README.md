@@ -4,4 +4,4 @@ Pecan is a simple application framework modeled after [Walnut](https://github.co
 ## Requirements
 - CMake
 - Vcpkg
-- Vulcan
+- Vulkan
